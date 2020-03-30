@@ -135,7 +135,7 @@ while(num>1) {                                          #loop untill only 1 clus
       rm(list=paste("clusx_",i,sep=""))             #x and y positions of the 2nd cluster is deleted
       rm(list=paste("clusy_",i,sep=""))
       clus <- clus[clus != i]                       #cluster number of the one that was merged with the selected cluster is removed from the set of cluster numbers
-      num <- num-1                                  #number of cluster decreases by 1
+      num <- num-1                                  #total number of clusters decreases by 1
       break
     }
       
