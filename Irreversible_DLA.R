@@ -88,7 +88,7 @@ while(num>1) {                                          #loop untill only 1 clus
     xpos <- get(paste("clusx_",i,sep=""))               #get x and y positions of the loop cluster
     ypos <- get(paste("clusy_",i,sep=""))
     flag <- 0
-    for(k in 1:length(xpos)) {                          #check if any point on the loop cluster is neighbouring the the selected cluster after the random walk
+    for(k in 1:length(xpos)) {                          #check if any point on the loop cluster is neighbouring the selected cluster after the random walk
       ii <- which(xsel==xpos[k]+1)
       if(length(ii)!=0) {
         for(l in ii) {
