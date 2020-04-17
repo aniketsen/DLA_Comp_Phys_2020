@@ -28,7 +28,3 @@ Nn <- Nn+1
 }
 }
 saveRDS(beta, file="beta_values.rds")         #Store all calculated beta values for further calculations
-#require(ggplot2)
-#ggdat <- data.frame(first=x, second=y)
-#print(qplot(x, y, data=ggdat))
-#plot(x,y,pch = 16,cex = 0.75)
